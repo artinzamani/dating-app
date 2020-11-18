@@ -41,7 +41,6 @@ namespace API.Controllers
             return thingToReturn;
         }
 
-        [Authorize]
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
         {
