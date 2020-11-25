@@ -1,0 +1,22 @@
+img.img-thumbnail {
+    height: 100px;
+    min-width: 100px !important;
+    margin-bottom: 2px;
+}
+
+.nv-file-over {
+    /* border: dotted 3px red; */
+    background-color: #DDD;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.my-drop-zone {
+    background-color: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+
+input[type=file] {
+    color: transparent;
+}
